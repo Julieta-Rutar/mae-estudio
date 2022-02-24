@@ -170,7 +170,7 @@ body {
 
 .imgPortfolio {
   width: 200px;
-  height: 200px;
+  height: 220px;
   border-radius: 5px;
   margin: 0.2rem;
 }
@@ -210,7 +210,7 @@ body {
   margin: 0.2rem;
   border-radius: 5px;
   width: 200px;
-  height: 300.187px;
+  height: 344px;
 }
 
 .bodyServicios {
@@ -328,26 +328,26 @@ body {
 .imgPrincipal {
   margin: 15px;
   width: 1000px;
-  height: 1000px;
+  height: 1020px;
 }
 
 .ilustraciones, .fotos {
   width: 500px;
-  height: 500px;
+  height: 520px;
   border-radius: 5px;
   margin: 15px;
 }
 
 .ilustraciones__2 {
   width: 400px;
-  height: 500px;
+  height: 409px;
   margin: 15px;
   border-radius: 5px;
 }
 
 .fotos {
   width: 350px;
-  height: 450.187px;
+  height: 494px;
 }
 
 .descripciones {
