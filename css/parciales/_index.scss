@@ -16,6 +16,14 @@
     &__a:hover{
         text-decoration: underline;
     }
+
+    &__menu{
+        background-color: $secundario;
+
+        &__a{
+            color: $primario
+        }
+    }
 }
 
 .contenedorAnimacion{
