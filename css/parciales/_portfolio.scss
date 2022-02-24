@@ -1,0 +1,46 @@
+
+.imgPortfolio{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.imgMC{
+    @extend .imgPortfolio;
+    margin: 9px;
+}
+
+.imgB{
+    margin: 5px;
+    width: 200px;
+    height: 300.187px;
+    border-radius: 5px;
+}
+
+.o{
+    background-color: $primario;
+    border: 0px;
+}
+
+.cont{
+    display: flex;
+}
+
+.marca{
+    margin-top: 60px;
+    color: $secundario;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.fondo{
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.imgFondo{
+    margin: 0.2rem;
+    border-radius: 5px;
+    width: 200px;
+    height: 300.187px;
+}

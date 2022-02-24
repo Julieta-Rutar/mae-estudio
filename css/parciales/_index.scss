@@ -1,0 +1,96 @@
+
+.nav{
+    background-color: $primario;
+
+    &__li{
+        margin: 10px;
+    }
+
+    &__a{
+        font-size: large;
+        letter-spacing: 0.1rem;
+        text-decoration: none;
+        color: $secundario;
+    }
+
+    &__a:hover{
+        text-decoration: underline;
+    }
+}
+
+.contenedorAnimacion{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    overflow: hidden;
+    
+    &__h1{
+        text-align: center;
+        letter-spacing: 0.1rem;
+        font-size: 3.5rem;
+    }
+
+    &__ol{
+        list-style: none;
+        padding: 15px;
+        letter-spacing: 0.1rem;
+        text-align: start;
+        height: 70px;
+        margin-bottom: 15px;
+        animation: cambiar 7s infinite;
+    }
+
+    &__li{
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+}
+
+.historia{
+    background-color: $secundario;
+    border-radius: 5px;
+    justify-self: center;
+    margin-top: 65px;
+
+    &__h2{
+        font-size: 2rem;
+        padding: 20px;
+        letter-spacing: 0.2rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    &__p{
+        color: white;
+        justify-self: center;
+        text-align: center;
+    }
+    &__hr{
+        width: 1120px;
+        margin-top: 10px;
+        border: $secundario 3px solid; 
+    }
+}
+
+.perfiles{
+    @extend %titulos;
+    
+    &__p{
+        align-self: center;
+        padding: 5px;
+    }
+
+    &__img{
+        margin-top:  10px ;
+        justify-self: center;
+    }
+}
+
+
+.footer{
+    padding-top: 35px;
+}

@@ -1,0 +1,49 @@
+.bodyServicios{
+    background-color: $secundario;
+}
+
+.navServicios{
+    background-color: $secundario;
+    padding-bottom: 20px;
+
+    &__a{
+        color: $primario;
+        font-size: large;
+        letter-spacing: 0.1rem;
+        text-decoration: none;
+        padding: 0.5rem;
+    }
+    &__a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+
+}
+
+.card{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: $primario;
+
+    &__titulo{
+        color: $secundario;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    &__p{
+        @extend .card__titulo;
+        font-size: 1rem;
+    }
+}
+
+    
+
+.label{
+    color: $primario;
+
+    & input {
+        margin: 15px;
+    }
+}

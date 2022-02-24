@@ -1,0 +1,32 @@
+.titulo{
+    @extend %titulos;
+
+}
+
+.form{
+    margin-top: 85px;
+    background-color: $secundario;
+    color: white;
+    padding-bottom:2px ;
+    align-content: center;
+    
+    &__input{
+        background-color: $secundario;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        color: white;
+    }
+
+    &__msj{
+        margin-top: 20px;
+    }
+
+}
+
+.boton{
+    background-color: $primario;
+    border: solid $primario;
+    color: $secundario;
+    margin: 15px;
+}

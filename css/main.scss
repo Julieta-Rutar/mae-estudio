@@ -1,0 +1,23 @@
+$listaColores: #f4ebdd , #242525;
+
+$primario: nth($listaColores, 1);
+$secundario: nth($listaColores, 2 );
+
+
+
+%titulos{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    margin-top: 20px;
+
+}
+
+@import "./parciales/reset";
+@import "./parciales/contacto";
+@import "./parciales/index" ;
+@import "./parciales/portfolio" ;
+@import "./parciales/recursos" ;
+@import "./parciales/servicios";
+@import "./parciales/media-queries";
