@@ -146,7 +146,6 @@ body {
 }
 
 .historia__hr {
-  width: 1120px;
   margin-top: 10px;
   border: #242525 3px solid;
 }
@@ -166,6 +165,13 @@ body {
 
 .footer {
   padding-top: 35px;
+}
+
+.footer__a {
+  color: #242525;
+  font-size: 1rem;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
 }
 
 .imgPortfolio {
@@ -331,9 +337,9 @@ body {
   height: 1020px;
 }
 
-.ilustraciones, .fotos {
-  width: 500px;
-  height: 520px;
+.ilustraciones {
+  width: 400px;
+  height: 420px;
   border-radius: 5px;
   margin: 15px;
 }
@@ -346,6 +352,7 @@ body {
 }
 
 .fotos {
+  margin-top: 10px;
   width: 350px;
   height: 494px;
 }

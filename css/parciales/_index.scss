@@ -26,6 +26,8 @@
     }
 }
 
+// row justify-content-end d-flex flex-row-reverse bd-highlight
+
 .contenedorAnimacion{
     margin-top: 50px;
     display: flex;
@@ -78,7 +80,6 @@
         text-align: center;
     }
     &__hr{
-        width: 1120px;
         margin-top: 10px;
         border: $secundario 3px solid; 
     }
@@ -101,4 +102,11 @@
 
 .footer{
     padding-top: 35px;
+
+    &__a{
+        color: $secundario;
+        font-size: 1rem;
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+    }
 }
