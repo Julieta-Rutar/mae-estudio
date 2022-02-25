@@ -326,37 +326,6 @@ body {
   }
 }
 
-.img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.imgPrincipal {
-  margin: 15px;
-  width: 1000px;
-  height: 1020px;
-}
-
-.ilustraciones {
-  width: 400px;
-  height: 420px;
-  border-radius: 5px;
-  margin: 15px;
-}
-
-.ilustraciones__2 {
-  width: 400px;
-  height: 409px;
-  margin: 15px;
-  border-radius: 5px;
-}
-
-.fotos {
-  margin-top: 10px;
-  width: 350px;
-  height: 494px;
-}
-
 .descripciones {
   margin: 90px;
 }
