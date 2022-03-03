@@ -7,11 +7,13 @@
     padding-bottom: 20px;
 
     &__a{
+        @extend .nav__a;
         color: $primario;
-        font-size: large;
-        letter-spacing: 0.1rem;
-        text-decoration: none;
-        padding: 0.5rem;
+        // color: $primario;
+        // font-size: large;
+        // letter-spacing: 0.1rem;
+        // text-decoration: none;
+        // padding: 0.5rem;
     }
     &__a:hover{
         color: white;
@@ -21,24 +23,12 @@
 }
 
 .card{
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 5px;
     background-color: $primario;
 
-    &__titulo{
-        color: $secundario;
-        font-size: 1.5rem;
-        text-align: center;
+    &__text{
+        align-items: flex-end;
     }
-
-    &__p{
-        @extend .card__titulo;
-        font-size: 1rem;
-    }
-}
-
-    
+}    
 
 .label{
     color: $primario;

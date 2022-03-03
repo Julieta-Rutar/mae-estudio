@@ -57,14 +57,14 @@ body {
   margin: 10px;
 }
 
-.nav__a {
+.nav__a, .navServicios__a {
   font-size: large;
   letter-spacing: 0.1rem;
   text-decoration: none;
   color: #242525;
 }
 
-.nav__a:hover {
+.nav__a:hover, .navServicios__a:hover {
   text-decoration: underline;
 }
 
@@ -148,6 +148,7 @@ body {
 .historia__hr {
   margin-top: 10px;
   border: #242525 3px solid;
+  overflow: hidden;
 }
 
 .perfiles__p {
@@ -230,10 +231,6 @@ body {
 
 .navServicios__a {
   color: #f4ebdd;
-  font-size: large;
-  letter-spacing: 0.1rem;
-  text-decoration: none;
-  padding: 0.5rem;
 }
 
 .navServicios__a:hover {
@@ -242,20 +239,13 @@ body {
 }
 
 .card {
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 5px;
   background-color: #f4ebdd;
 }
 
-.card__titulo, .card__p {
-  color: #242525;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.card__p {
-  font-size: 1rem;
+.card__text {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .label {
